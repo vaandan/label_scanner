@@ -1,0 +1,8 @@
+frappe
+pytesseract
+Pillow
+setuptools
+wheel
+
+# System dependencies
+tesseract-ocr

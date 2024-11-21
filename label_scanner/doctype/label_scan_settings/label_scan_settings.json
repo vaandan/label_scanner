@@ -1,0 +1,58 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "label_scan_settings",
+    "creation": "2024-01-01 00:00:00",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+     "batch_pattern",
+     "serial_pattern", 
+     "quantity_pattern"
+    ],
+    "fields": [
+     {
+      "fieldname": "batch_pattern",
+      "fieldtype": "Data",
+      "label": "Batch Number Pattern",
+      "reqd": 1
+     },
+     {
+      "fieldname": "serial_pattern",
+      "fieldtype": "Data", 
+      "label": "Serial Number Pattern",
+      "reqd": 1
+     },
+     {
+      "fieldname": "quantity_pattern",
+      "fieldtype": "Data",
+      "label": "Quantity Pattern",
+      "reqd": 1
+     }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-01-01 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Label Scanner",
+    "name": "Label Scan Settings",
+    "owner": "Administrator",
+    "permissions": [
+     {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+     }
+    ],
+    "quick_entry": 1,
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "track_changes": 1
+   }
